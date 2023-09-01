@@ -1,0 +1,303 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: century;
+}
+
+section{
+    display: block;
+    width: 100%;
+    height: 500px;
+    background: url("image.jpg");
+    text-align: left;
+    background-color: blueviolet;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 400px;
+    padding: right 20px;
+    
+   
+}
+
+.navbar{
+    display: flex;
+    justify-content: center;
+    text-align: right;
+    align-items: center;
+    background-color: rgba(241, 23, 146, 0.924);
+    position: sticky;
+    top: 0;
+}
+.navbar::before{
+    content: "";
+    position: absolute;
+    background-color: rgba(180, 173, 177, 0.49);
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+.navbar ul{
+    display: flex;
+    list-style: none;
+    margin: 20px 0px;
+}
+.navbar ul li{
+    font-family: century;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
+.navbar ul li a{
+    padding:5px 20px;
+    text-decoration: none;
+    color: white;
+    transition: all .5s ease;
+}
+.navbar ul li a:hover{
+    background-color: white;
+    color: black;
+    box-shadow: 0 0 10px white;  
+}
+.home{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 100px;
+    padding-left: 50%;
+    width: 100%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    justify-content: right;
+    color: white;
+}
+span{
+    color:#f709d0;
+}
+.about img{
+    display: block;
+    width:500px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    position: center;
+    justify-content: space-around;
+    
+}
+.main{
+    background-color:#f709d0;
+    height: 350px;
+    width:1130px;
+    margin:0 auto;
+    margin-bottom:0px;
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+    
+}
+
+.text{
+    font-family: century;
+    color:honeydew;  
+}
+.text h1{
+    font-size: 80px;
+    font-weight: bold;
+    color:honeydew;
+    margin-bottom: 5px;
+    text-align: center;
+}
+.text h3{
+    text-align:left;
+    font-family: century;
+    font-size: 50px;
+    color:honeydew;
+}
+.text h4{
+    
+    justify-content: center;
+    text-align: left;
+    font-family: century;
+    font-size: 39px;
+    color:honeydew;
+
+}
+.text p{
+    justify-content: right;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: century;
+    font-size: 20px;
+    color: rgb(240, 236, 236);
+}
+.education{
+    display: contents;
+    background-color:blueviolet;
+    height: 500px;
+    width: 100%;
+    padding:100px 0px;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:400px;
+   
+}
+.card{
+    color:white;
+    height:250px;
+    width:300px;
+    padding:20Px 55px;
+    background-color:rgba(3, 192, 255, 0.697);
+    border-radius: 50px;
+    margin:15px;
+    text-align:center;
+}
+.card i{
+    font-size: 50px;
+    display:block;
+    text-align: center;
+    margin:15px 0px;
+    color:blueviolet;
+}
+.card h3{
+    color:rgb(247, 7, 143);
+    padding:10px;
+    font-weight: 900;
+
+}
+.card h3{
+    font-size: 30px;
+}
+.card:hover{
+    animation-name: card;
+    animation-duration: 300ms;
+    animation-fill-mode:forwards;
+}
+@keyframes card {
+    100%{
+        transform:rotate(-8deg);
+    }
+    
+}
+.skills{
+    background-color: blueviolet;
+    background-position: center;
+    width:100%;
+    
+}
+
+.skills h4{
+    color:white;
+    font-size:50px;
+    text-align: center;
+    padding:50px;
+}
+.bars{
+    margin-bottom: 15px;
+    padding:20px;
+}
+.info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills span{color:white;}
+.line{
+    height:10px;
+    
+    background: rgb(4, 255, 0);
+}
+.skills.span{
+    font-weight: 500;
+    font-size: 15px;
+
+}
+
+.java
+{width: 70%;}
+.html
+{width:80%;}
+.css
+{width:70%;}
+.python
+{width: 85%;}
+.dataanalytics
+{width: 70%;}
+
+.pskills
+{
+  background:blueviolet;
+  width:120px;
+  height:200px; 
+  border-radius: 50%;
+margin: 0 3rem;
+  display:grid;
+  justify-content: space-between;
+  display: inline-flex;
+padding: 4rem 0;
+}
+.skills1{
+    background-color:#f709d0;
+    background-position: center;
+    width:100%;
+
+}
+
+.word {
+    padding:3%;
+    color:rgb(251, 247, 247);
+    text-align: center;
+    font-size:100%;
+}
+.contact{
+    height: 300px   ;
+    background-color: white;
+    color:navy;
+    margin:25px;
+    padding:50px;
+    text-align: center;
+}
+form{
+    background-color: white;
+    font-family: century;
+    font-weight: bold;
+    color:navy;
+    padding:50px;
+}
+button{
+    width: 10%;
+    background-color:skyblue;
+    padding:10px;
+    border-radius: 15px;
+}
+a{
+    text-decoration: none;
+    color:rgb(225, 255, 0);
+    padding:20px;
+}
+a:visited{
+    color:white;
+}
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.btn.btn2{
+    display: inline-block;
+    background: #d965de;
+}
+footer a{
+   position:relative;
+   font-size: 30px;
+   color:navy;
+   margin-right: 50px;
+}
+footer a:hover{
+    transform: scale(2.5);
+} 
